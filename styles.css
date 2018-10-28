@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(0, 102, 102);
+}
+
+h1 {
+  font-family: 'Slabo 27px', serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Slabo 27px', serif;
+  color: white;
+  margin-bottom: 0;
+  font-size: 2em;
+}
+
+p {
+  font-family: 'Slabo 27px', serif;
+  color: white;
+  font-size: 1em;
+}
+
+ul {
+  color: white;
+  font-size: 1em;
+}
+
+.contact-headline {
+  font-size: 1.5em;
+}
+
+.everything {
+  background-color: rgb(0, 153, 153);
+  margin: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 7px;
+}
+
+.first-paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-size: 1.5em;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.information-about-company {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 50%
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-family: 'Slabo 27px', serif;
+}
+
+.contact-information-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid white;
+  margin-left: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 7px;
+}
+
+.picture-of-magnus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.picture-of-magnus img {
+  width: 100%;
+  margin-bottom: 5%;
+  border-radius: 7px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .bottom {
+    flex-direction: column;
+  }
+  .picture-of-magnus {
+    width: 40%;
+  }
+  .contact-information-section {
+  margin-left: 0;
+  }
+}
