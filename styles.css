@@ -73,8 +73,6 @@ p, ul {
   justify-content: center;
   flex-direction: column;
   border: 2px solid white;
-  padding-left: 2%;
-  padding-right: 2%;
   border-radius: 7px;
   width: 40%;
 }
@@ -99,14 +97,25 @@ p, ul {
   margin-top: 5%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .bottom {
     flex-direction: column;
   }
-  .picture-of-magnus {
-    width: 40%;
+  .column {
+    width: 100%;
   }
   .contact-information-section {
-  margin-left: 0;
+    margin-left: 0;
+  }
+  .middle-section {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .everything {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
