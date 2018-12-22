@@ -1,5 +1,6 @@
 body {
   background-color: rgb(0, 102, 102);
+  margin: 0;
 }
 
 h1 {
@@ -9,6 +10,7 @@ h1 {
   align-items: center;
   justify-content: center;
   font-size: 3em;
+  letter-spacing: 0.08em;
 }
 
 h2 {
@@ -19,28 +21,19 @@ h2 {
   color: white;
   margin-bottom: 0;
   font-size: 2em;
+  letter-spacing: 0.08em;
 }
 
-p {
+p, ul {
   font-family: 'Slabo 27px', serif;
   color: white;
-  font-size: 1em;
-}
-
-ul {
-  color: white;
-  font-size: 1em;
-}
-
-.contact-headline {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .everything {
   background-color: rgb(0, 153, 153);
   margin: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding: 5%;
   border-radius: 7px;
 }
 
@@ -48,8 +41,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 8%;
-  margin-right: 8%;
   font-size: 1.5em;
 }
 
@@ -65,7 +56,7 @@ ul {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  width: 50%
+  width: 40%
 }
 
 .services {
@@ -73,7 +64,7 @@ ul {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  font-family: 'Slabo 27px', serif;
+  width: 40%;
 }
 
 .contact-information-section {
@@ -85,13 +76,14 @@ ul {
   padding-left: 2%;
   padding-right: 2%;
   border-radius: 7px;
+  width: 40%;
 }
 
 .picture-of-magnus {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 40%;
 }
 
 .picture-of-magnus img {
